@@ -5,9 +5,6 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import java.util.ArrayList;
-import java.util.List;
-
 @Entity
 @Data
 @NoArgsConstructor
@@ -21,4 +18,10 @@ public class User {
     private String googleId;
     private String email;
     private String name;
+
+    public User(String name, String googleId, String email) {
+        this.name = name;
+        this.googleId = googleId;
+        this.email = email;
+    }
 }
