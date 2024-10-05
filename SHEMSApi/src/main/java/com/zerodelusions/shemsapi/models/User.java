@@ -19,7 +19,7 @@ public class User {
     private String email;
     private String name;
 
-    public User(String name, String googleId, String email) {
+    public User(String googleId, String email, String name) {
         this.name = name;
         this.googleId = googleId;
         this.email = email;
