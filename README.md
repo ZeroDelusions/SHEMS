@@ -1,6 +1,6 @@
 
 # Smart Home Energy Management App
-This project is a Smart Home Energy Management application with a Spring Boot backend for CRUD REST API and a SwiftUI frontend. It includes Google Authentication for user identification and device management.
+This project is a Smart Home Energy Management example application with a Spring Boot backend for CRUD REST API and a SwiftUI frontend. It includes Google Authentication for user identification and device management.
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/192e98e3-49a5-4b8a-b608-16867d845bb0" width="200" />
